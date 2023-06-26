@@ -18,8 +18,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:ContentPlaceHolder ID="ConteudoWebsite" runat="server">
-                <header class="p-3 text-bg-light">
+
+            <header class="p-3 text-bg-light">
                     <div class="container">
                         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
@@ -35,11 +35,12 @@
                             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
                                 <input type="search" class="form-control form-control-light text-bg-light" placeholder="Search..." aria-label="Search">
                             </form>
-
-
                         </div>
                     </div>
                 </header>
+
+            <asp:ContentPlaceHolder ID="ConteudoWebsite" runat="server">
+                
             </asp:ContentPlaceHolder>
         </div>
     </form>
