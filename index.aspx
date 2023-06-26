@@ -25,7 +25,7 @@
                 </div>
             </ItemTemplate>
         </asp:DataList>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConcessionariaDBConnectionString %>" SelectCommand="SELECT * FROM [carrovrumvrum]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConcessionariaDBConnectionString %>" SelectCommand="SELECT * FROM [carrovrumvrum]" ProviderName="<%$ ConnectionStrings:ConcessionariaDBConnectionString.ProviderName %>"></asp:SqlDataSource>
     </div>
 
 </asp:Content>
